@@ -1,0 +1,586 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.glob_div{
+	height: 700px;
+	display: flex;
+}
+.about{
+	width: 480px;
+	height: 97%;
+	background: #FFB7FB;
+	margin-left: 190px;
+}
+.name{
+	width: 190px;
+	height: 39px;
+	margin-top: 70px;
+	margin-left: 15px;
+}
+.name span{
+	color: #AD9B8D;
+	font-size: 34px;
+	font-family: 'Dancing Script', cursive;
+}
+.menue{
+	width: 300px;
+	height: 24px;
+	margin-left: -38px;
+	margin-top: 20px;
+}
+.ul{
+	display: flex;
+	list-style: none;
+	margin-left: 10px;
+}
+li a{
+	text-decoration: none;
+	color: black;
+	margin-left: 40px;
+	font-size: 20px;
+	transition: 1s;
+}
+li a:hover{
+	color: #ADA399;
+}
+.i_am{
+	width: 250px;
+	height: 77px;
+	margin: auto;
+	margin-top: 40px;
+}
+.i_am span{
+	color:black;
+	font-size: 60px;
+	display: flex;
+	justify-content: center;
+	font-family: 'Great Vibes', cursive;
+	font-weight: bold;
+}
+.name_text{
+	width: 335px;
+	height: 240px;
+	margin-left: 100px;
+	margin-top: 40px;
+}
+.p{
+	display: flex;
+	justify-content: center;
+	font-size: 60px;
+	font-family: 'Satisfy', cursive;
+	margin-left: -160px;
+	color: #AD9B8D;
+}
+.a{
+	display: flex;
+	justify-content: center;
+	font-size: 60px;
+	font-family: 'Satisfy', cursive;
+	margin: -35px;
+	color: #AD9B8D;
+}
+.Profession{
+	width: 377px;
+	height: 27px;
+	margin-left: 15px;
+}
+.Profession span{
+/*	color: #F0ECBF;
+*/	font-size: 20px;
+}
+.foto_me{
+	width: 426px;
+	height: 679px;
+	background: url(img/oo.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	margin-top: -0px;
+}
+
+.about_me{
+	height: 550px;
+	background: #F1F0F0;
+	margin-top: -21px;
+}
+.title{
+	width: 155px;
+	height: 80px;
+	padding-top: 25px;
+	margin-left: 612px;
+}
+.title p{
+	color: #FFB7FB;
+	font-size: 50px;
+	font-weight: bold;
+	font-family: 'Italianno', cursive;
+	padding-top: 20px;
+	width: 400px;
+}
+.ga{
+	width: 300px;
+	height: 76px;
+	margin-left: -67px;
+	margin-top: -23px;
+}
+.text{
+	height: 80px;
+	margin-top: 140px;
+}
+.q{
+	text-align: center;
+	color: grey;
+	font-size: 18px;
+
+}
+.w{
+	text-align: center;
+	color: grey;
+	margin-top: 5px;
+}
+.e{
+	text-align: center;
+	color: grey;
+	margin-top: 5px;
+}
+.second_text{
+	height: 90px;
+	margin-top: 30px;
+}
+.r{
+	text-align: center;
+	color: grey;
+	font-size: 18px;
+}
+.t{
+	text-align: center;
+	color: grey;
+	margin-top: 5px;
+}
+.y{
+	text-align: center;
+	color: grey;
+	margin-top: 5px;
+}
+.u{
+	text-align: center;
+	color: grey;
+	margin-top: 5px;
+}
+.butt{
+	width: 160px;
+	height: 40px;
+	margin-left: 570px;
+	margin-top: 50px;
+	background: #FFB7FB;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+.butt:hover{
+	background: #FFA3FB;
+	color: white;
+}
+
+#video{
+	height: 200px;
+}
+#video p{
+	color: #FFB7FB;
+	display: flex;
+	justify-content: center;
+	margin-top: 70px;
+	font-size: 70px;
+	font-weight: bold;
+	font-family: 'Water Brush', cursive;
+}
+#video_div{
+	height: 400px;
+	background: url(img/hy.jpg);
+	background-repeat: no-repeat;
+	background-size: 70% 145%;
+	margin-left: 300px;
+}
+.icon{
+	width: 162px;
+	height: 40px;
+	display: flex;
+	margin-left: 60px;
+	position: absolute;
+	margin-top: 150px;
+
+}
+#play{
+	color: white;
+	font-size: 40px;
+	cursor: pointer;
+	margin-top: 6px;
+}
+.icon span{
+	color: white;
+	font-size: 24px;
+	cursor: pointer;
+	margin-top: 10px;
+	margin-left: 10px;
+	font-weight: bold;
+	 border-bottom: 2px solid white;
+    line-height: normal
+}
+#photos{
+	height: 200px;
+}
+#photos p{
+	color: #FFB7FB;
+	display: flex;
+	justify-content: center;
+	margin-top: 70px;
+	font-size: 70px;
+	font-weight: bold;
+	font-family: 'Niconne', cursive;
+
+}
+.first_div{
+	height: 450px;
+	display: flex;
+}
+.first_img{
+	width: 370px;
+	height: 466px;
+	margin-left: 145px;
+	background: url(img/gh.jpg);
+	background-repeat: no-repeat;
+	background-size: 94% 95%;
+}
+.second_img{
+	width: 450px;
+	height: 452px;
+	margin-left: 100px;
+	background: url(img/ik.jpg);
+	background-repeat: no-repeat;
+	background-size: 94% 95%;
+}
+.second_div{
+	height: 450px;
+	display: flex;
+	margin-top: 30px;
+}
+.third_img{
+	width: 410px;
+	height: 420px;
+	margin-left: 90px;
+	background: url(img/uu.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.four_img{
+	width: 530px;
+	height: 420px;
+	margin-left: 120px;
+	background: url(img/kl.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	
+}
+
+.contact{
+	height: 500px;
+	display: flex;
+	margin-top: 50px;
+}
+.contact_img{
+	width: 360px;
+	height: 530px;
+	margin-left: 225px;
+	background: url(img/bb.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+#contact_div{
+	width: 480px;
+	height: 530px;
+	background: #FFB7FB;
+}
+.c{
+	color: #ADA399;
+	font-size: 60px;
+	margin-top: 80px;
+	margin-left: 80px;
+	font-family: 'Rochester', cursive;
+	font-weight: bold;
+}
+.d{
+	color: white;
+	font-size: 25px;
+	margin-left: 90px;
+	margin-top: 30px;
+}
+.m{
+	color: white;
+	margin-left: 90px;
+	margin-top: 20px;
+	font-size: 20px;
+	font-weight: bold;
+}
+.k{
+	color: white;
+	margin-left: 90px;
+	margin-top: 20px;
+	font-size: 20px;
+}
+.em{
+	color: white;
+	margin-left: 90px;
+	margin-top: 20px;
+	font-size: 15px;
+	cursor: pointer;
+}
+.te{
+	color: white;
+	margin-left: 90px;
+	margin-top: 20px;
+	font-size: 15px;
+}
+.internet{
+	width: 135px;
+	height: 25px;
+	display: flex;
+	margin-top: 20px;
+	margin-left: 90px;
+}
+#fab{
+	color: white;
+	font-size: 18px;
+	cursor: pointer;
+}
+#fab:hover{
+	color: #ADA399;
+}
+#tw{
+	color: white;
+	font-size: 18px;
+	cursor: pointer;
+	margin-left: 20px;
+}
+#tw:hover{
+	color: #ADA399;
+}
+#ins{
+	color: white;
+	font-size: 18px;
+	cursor: pointer;
+	margin-left: 20px;
+}
+#ins:hover{
+	color: #ADA399;
+}
+#you{
+	color: white;
+	font-size: 18px;
+	cursor: pointer;
+	margin-left: 20px;
+}
+#you:hover{
+	color: #ADA399;
+}
+
+#rezyume_block{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	z-index: 9;
+	left: 0;
+	top: 0;
+	background: rgba(245, 245, 245, 0.2);
+	display: none;
+}
+#rezyume_none{
+	width: 740px;
+	height: 100%;
+	background: #FDC3FA;
+}
+.close{
+	width: 56px;
+	height: 51px;
+	margin-left: 660px;
+	padding-top: 30px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+}
+#clo{
+	cursor: pointer;
+}
+.yellow_resume{
+	width: 180px;
+	height: 70px;
+	margin-left: 50px;
+
+}
+.yellow_resume p{
+	color: #AA988A;
+	font-size: 50px;
+	font-family: 'Dancing Script', cursive;
+}
+.kensagrutyun{
+	width: 806px;
+	height: 270px;
+	display: flex;
+	margin-left: 50px;
+	margin-top: 40px;
+}
+.tesq{
+	width: 300px;
+	height: 250px;
+	border: 1px solid black;
+	border-left: 10px;
+	border-right: 10px;
+	border-top: 10px;
+}
+.b{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 20px;
+}
+.h{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 20px;
+	margin-top: 20px;
+}
+.ey{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 20px;
+	margin-top: 20px;
+}
+.ha{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 20px;
+	margin-top: 20px;
+}
+.la{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 20px;
+	margin-top: 20px;
+}
+.picture{
+	width: 300px;
+	height: 250px;
+	border: 1px solid black;
+	border-left: 10px;
+	border-right: 10px;
+	border-top: 10px;
+}
+.Gagik_foto{
+	width: 200px;
+	height: 185px;
+	margin: auto;
+	background: url(img/mn.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	border-bottom-left-radius: 100px;
+	border-top-right-radius: 100px;
+}
+#pop{
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	position: fixed;
+	z-index: 9;
+	background: black;
+	display: none;
+}
+.display{
+	width: 100%;
+	height: 70px;
+	border: 1px solid black;
+	margin-top: 30px;
+	display: flex;
+	justify-content: space-between;
+}
+.share{
+	width: 150px;
+	height: 40px;
+	display: flex;
+}
+#sh{
+	color: white;
+	cursor: pointer;
+	font-size: 20px;
+	margin-left: 40px;
+	margin-top: 7px;
+}
+#sh:hover{
+	color: #838996;
+}
+.share p{
+	color: white;
+	margin-left: 10px;
+	margin-top: 10px;
+	cursor: pointer;
+}
+.share:hover p{
+	color: #838996;
+}
+.pak{
+	width: 60px;
+	height: 40px;
+}
+#x{
+	color: white;
+	font-size: 20px;
+	cursor: pointer;
+}
+.vid{
+	width: 70%;
+	height: 33%;
+	margin-top: 100px;
+	margin-left: 200px;
+	display: flex;
+}
+.fb{
+	width: 40%;
+	height: 100%;
+	margin-left: 100px;
+}
+
+
+
+.left{
+	width: 42px;
+	height: 170px;
+	position: fixed;
+    top: 140px;
+    right: 0;
+    bottom: 0;
+    background: #FFB7FB;  
+}
+#bl{
+	font-size: 15px;
+	margin-left: 17px;
+	margin-top: 30px;
+	cursor: pointer;
+	color: black;
+}
+#twe{
+	font-size: 15px;
+	margin-left: 14px;
+	margin-top: 13px;
+	cursor: pointer;
+	color: black;
+}
+#insta{
+	font-size: 15px;
+	margin-left: 14px;
+	margin-top: 13px;
+	cursor: pointer;
+	color: black;
+}
+#youtube{
+	font-size: 15px;
+	margin-left: 12px;
+	margin-top: 11px;
+	cursor: pointer;
+	color: black;
+}
